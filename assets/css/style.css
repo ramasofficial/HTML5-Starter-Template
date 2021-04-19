@@ -1,2 +1,15 @@
-@import "libraries/normalize/normalize.css";
-@import "libraries/bootstrap/bootstrap.min.css";
+@import 'libraries/normalize/normalize.css';
+@import 'libraries/bootstrap/bootstrap.min.css';
+@import 'variables.css';
+
+* {
+  box-sizing: border-box;
+}
+
+.primaryColor {
+  color: var(--primary-color);
+}
+
+.secondaryColor {
+  color: var(--secondary-color);
+}
